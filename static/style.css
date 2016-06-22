@@ -1,0 +1,50 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0; }
+
+body {
+  display: flex;
+  flex-direction: row; }
+
+.network-popUp {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 299;
+  height: 28px;
+  background-color: #f9f9f9;
+  padding-top: 4px; }
+  .network-popUp .operation {
+    display: none; }
+  .network-popUp .node-label {
+    width: 50px; }
+
+.wrapper {
+  position: relative;
+  width: 600px;
+  height: 800px; }
+
+.upload {
+  display: block;
+  position: relative;
+  width: 600px;
+  height: 800px; }
+
+.upload::before {
+  content: "Drop File in white area"; }
+
+.network {
+  width: 600px;
+  height: 800px; }
+
+#morph {
+  flex: 1;
+  height: 800px; }
+
+.img {
+  width: 600px;
+  height: 800px; }
+
+/*# sourceMappingURL=style.css.map */
